@@ -1,0 +1,1227 @@
+DFS Pathfinding Demo (Randomized Neighbor Order)
+==================================================
+Start time: 2025-09-11 15:14:11
+==================================================
+Start position: (1, 1)
+Goal position: (18, 18)
+==================================================
+
+==================================================
+Current node: (1, 1) at depth 0
+Stack size: 0
+Visited nodes: 1
+ -> Adding neighbor (1, 2) to stack
+ -> Adding neighbor (2, 1) to stack
+
+==================================================
+Current node: (2, 1) at depth 1
+Stack size: 1
+Visited nodes: 2
+ -> Adding neighbor (3, 1) to stack
+ -> Adding neighbor (2, 2) to stack
+
+==================================================
+Current node: (2, 2) at depth 2
+Stack size: 2
+Visited nodes: 3
+ -> Adding neighbor (3, 2) to stack
+ -> Adding neighbor (2, 3) to stack
+ -> Adding neighbor (1, 2) to stack
+
+==================================================
+Current node: (1, 2) at depth 3
+Stack size: 4
+Visited nodes: 4
+ -> Adding neighbor (1, 3) to stack
+
+==================================================
+Current node: (1, 3) at depth 4
+Stack size: 4
+Visited nodes: 5
+ -> Adding neighbor (2, 3) to stack
+ -> Adding neighbor (1, 4) to stack
+
+==================================================
+Current node: (1, 4) at depth 5
+Stack size: 5
+Visited nodes: 6
+ -> Adding neighbor (1, 5) to stack
+ -> Adding neighbor (2, 4) to stack
+
+==================================================
+Current node: (2, 4) at depth 6
+Stack size: 6
+Visited nodes: 7
+ -> Adding neighbor (2, 3) to stack
+ -> Adding neighbor (2, 5) to stack
+
+==================================================
+Current node: (2, 5) at depth 7
+Stack size: 7
+Visited nodes: 8
+ -> Adding neighbor (2, 6) to stack
+ -> Adding neighbor (1, 5) to stack
+ -> Adding neighbor (3, 5) to stack
+
+==================================================
+Current node: (3, 5) at depth 8
+Stack size: 9
+Visited nodes: 9
+ -> Adding neighbor (3, 6) to stack
+ -> Adding neighbor (4, 5) to stack
+
+==================================================
+Current node: (4, 5) at depth 9
+Stack size: 10
+Visited nodes: 10
+ -> Adding neighbor (4, 4) to stack
+ -> Adding neighbor (4, 6) to stack
+
+==================================================
+Current node: (4, 6) at depth 10
+Stack size: 11
+Visited nodes: 11
+ -> Adding neighbor (4, 7) to stack
+ -> Adding neighbor (3, 6) to stack
+
+==================================================
+Current node: (3, 6) at depth 11
+Stack size: 12
+Visited nodes: 12
+ -> Adding neighbor (3, 7) to stack
+ -> Adding neighbor (2, 6) to stack
+
+==================================================
+Current node: (2, 6) at depth 12
+Stack size: 13
+Visited nodes: 13
+ -> Adding neighbor (2, 7) to stack
+ -> Adding neighbor (1, 6) to stack
+
+==================================================
+Current node: (1, 6) at depth 13
+Stack size: 14
+Visited nodes: 14
+ -> Adding neighbor (1, 7) to stack
+ -> Adding neighbor (1, 5) to stack
+
+==================================================
+Current node: (1, 5) at depth 14
+Stack size: 15
+Visited nodes: 15
+
+==================================================
+Current node: (1, 7) at depth 14
+Stack size: 14
+Visited nodes: 16
+ -> Adding neighbor (2, 7) to stack
+ -> Adding neighbor (1, 8) to stack
+
+==================================================
+Current node: (1, 8) at depth 15
+Stack size: 15
+Visited nodes: 17
+ -> Adding neighbor (1, 9) to stack
+ -> Adding neighbor (2, 8) to stack
+
+==================================================
+Current node: (2, 8) at depth 16
+Stack size: 16
+Visited nodes: 18
+ -> Adding neighbor (2, 7) to stack
+ -> Adding neighbor (2, 9) to stack
+ -> Adding neighbor (3, 8) to stack
+
+==================================================
+Current node: (3, 8) at depth 17
+Stack size: 18
+Visited nodes: 19
+ -> Adding neighbor (3, 9) to stack
+ -> Adding neighbor (3, 7) to stack
+ -> Adding neighbor (4, 8) to stack
+
+==================================================
+Current node: (4, 8) at depth 18
+Stack size: 20
+Visited nodes: 20
+ -> Adding neighbor (4, 9) to stack
+ -> Adding neighbor (4, 7) to stack
+
+==================================================
+Current node: (4, 7) at depth 19
+Stack size: 21
+Visited nodes: 21
+ -> Adding neighbor (3, 7) to stack
+
+==================================================
+Current node: (3, 7) at depth 20
+Stack size: 21
+Visited nodes: 22
+ -> Adding neighbor (2, 7) to stack
+
+==================================================
+Current node: (2, 7) at depth 21
+Stack size: 21
+Visited nodes: 23
+
+==================================================
+Current node: (4, 9) at depth 19
+Stack size: 20
+Visited nodes: 24
+ -> Adding neighbor (4, 10) to stack
+ -> Adding neighbor (3, 9) to stack
+
+==================================================
+Current node: (3, 9) at depth 20
+Stack size: 21
+Visited nodes: 25
+ -> Adding neighbor (3, 10) to stack
+ -> Adding neighbor (2, 9) to stack
+
+==================================================
+Current node: (2, 9) at depth 21
+Stack size: 22
+Visited nodes: 26
+ -> Adding neighbor (1, 9) to stack
+ -> Adding neighbor (2, 10) to stack
+
+==================================================
+Current node: (2, 10) at depth 22
+Stack size: 23
+Visited nodes: 27
+ -> Adding neighbor (2, 11) to stack
+ -> Adding neighbor (3, 10) to stack
+ -> Adding neighbor (1, 10) to stack
+
+==================================================
+Current node: (1, 10) at depth 23
+Stack size: 25
+Visited nodes: 28
+ -> Adding neighbor (1, 11) to stack
+ -> Adding neighbor (1, 9) to stack
+
+==================================================
+Current node: (1, 9) at depth 24
+Stack size: 26
+Visited nodes: 29
+
+==================================================
+Current node: (1, 11) at depth 24
+Stack size: 25
+Visited nodes: 30
+ -> Adding neighbor (2, 11) to stack
+ -> Adding neighbor (1, 12) to stack
+
+==================================================
+Current node: (1, 12) at depth 25
+Stack size: 26
+Visited nodes: 31
+ -> Adding neighbor (1, 13) to stack
+ -> Adding neighbor (2, 12) to stack
+
+==================================================
+Current node: (2, 12) at depth 26
+Stack size: 27
+Visited nodes: 32
+ -> Adding neighbor (2, 13) to stack
+ -> Adding neighbor (2, 11) to stack
+ -> Adding neighbor (3, 12) to stack
+
+==================================================
+Current node: (3, 12) at depth 27
+Stack size: 29
+Visited nodes: 33
+ -> Adding neighbor (3, 13) to stack
+ -> Adding neighbor (4, 12) to stack
+ -> Adding neighbor (3, 11) to stack
+
+==================================================
+Current node: (3, 11) at depth 28
+Stack size: 31
+Visited nodes: 34
+ -> Adding neighbor (4, 11) to stack
+ -> Adding neighbor (3, 10) to stack
+ -> Adding neighbor (2, 11) to stack
+
+==================================================
+Current node: (2, 11) at depth 29
+Stack size: 33
+Visited nodes: 35
+
+==================================================
+Current node: (3, 10) at depth 29
+Stack size: 32
+Visited nodes: 36
+ -> Adding neighbor (4, 10) to stack
+
+==================================================
+Current node: (4, 10) at depth 30
+Stack size: 32
+Visited nodes: 37
+ -> Adding neighbor (4, 11) to stack
+ -> Adding neighbor (5, 10) to stack
+
+==================================================
+Current node: (5, 10) at depth 31
+Stack size: 33
+Visited nodes: 38
+ -> Adding neighbor (6, 10) to stack
+
+==================================================
+Current node: (6, 10) at depth 32
+Stack size: 33
+Visited nodes: 39
+ -> Adding neighbor (6, 9) to stack
+ -> Adding neighbor (6, 11) to stack
+ -> Adding neighbor (7, 10) to stack
+
+==================================================
+Current node: (7, 10) at depth 33
+Stack size: 35
+Visited nodes: 40
+ -> Adding neighbor (7, 9) to stack
+ -> Adding neighbor (8, 10) to stack
+ -> Adding neighbor (7, 11) to stack
+
+==================================================
+Current node: (7, 11) at depth 34
+Stack size: 37
+Visited nodes: 41
+ -> Adding neighbor (6, 11) to stack
+ -> Adding neighbor (7, 12) to stack
+ -> Adding neighbor (8, 11) to stack
+
+==================================================
+Current node: (8, 11) at depth 35
+Stack size: 39
+Visited nodes: 42
+ -> Adding neighbor (8, 12) to stack
+ -> Adding neighbor (9, 11) to stack
+ -> Adding neighbor (8, 10) to stack
+
+==================================================
+Current node: (8, 10) at depth 36
+Stack size: 41
+Visited nodes: 43
+ -> Adding neighbor (9, 10) to stack
+
+==================================================
+Current node: (9, 10) at depth 37
+Stack size: 41
+Visited nodes: 44
+ -> Adding neighbor (9, 11) to stack
+ -> Adding neighbor (10, 10) to stack
+
+==================================================
+Current node: (10, 10) at depth 38
+Stack size: 42
+Visited nodes: 45
+ -> Adding neighbor (10, 9) to stack
+ -> Adding neighbor (10, 11) to stack
+ -> Adding neighbor (11, 10) to stack
+
+==================================================
+Current node: (11, 10) at depth 39
+Stack size: 44
+Visited nodes: 46
+ -> Adding neighbor (11, 9) to stack
+ -> Adding neighbor (12, 10) to stack
+ -> Adding neighbor (11, 11) to stack
+
+==================================================
+Current node: (11, 11) at depth 40
+Stack size: 46
+Visited nodes: 47
+ -> Adding neighbor (12, 11) to stack
+ -> Adding neighbor (11, 12) to stack
+ -> Adding neighbor (10, 11) to stack
+
+==================================================
+Current node: (10, 11) at depth 41
+Stack size: 48
+Visited nodes: 48
+ -> Adding neighbor (10, 12) to stack
+ -> Adding neighbor (9, 11) to stack
+
+==================================================
+Current node: (9, 11) at depth 42
+Stack size: 49
+Visited nodes: 49
+ -> Adding neighbor (9, 12) to stack
+
+==================================================
+Current node: (9, 12) at depth 43
+Stack size: 49
+Visited nodes: 50
+ -> Adding neighbor (10, 12) to stack
+ -> Adding neighbor (8, 12) to stack
+ -> Adding neighbor (9, 13) to stack
+
+==================================================
+Current node: (9, 13) at depth 44
+Stack size: 51
+Visited nodes: 51
+ -> Adding neighbor (8, 13) to stack
+ -> Adding neighbor (10, 13) to stack
+ -> Adding neighbor (9, 14) to stack
+
+==================================================
+Current node: (9, 14) at depth 45
+Stack size: 53
+Visited nodes: 52
+ -> Adding neighbor (10, 14) to stack
+ -> Adding neighbor (8, 14) to stack
+
+==================================================
+Current node: (8, 14) at depth 46
+Stack size: 54
+Visited nodes: 53
+ -> Adding neighbor (8, 13) to stack
+ -> Adding neighbor (7, 14) to stack
+
+==================================================
+Current node: (7, 14) at depth 47
+Stack size: 55
+Visited nodes: 54
+ -> Adding neighbor (6, 14) to stack
+ -> Adding neighbor (7, 13) to stack
+
+==================================================
+Current node: (7, 13) at depth 48
+Stack size: 56
+Visited nodes: 55
+ -> Adding neighbor (8, 13) to stack
+ -> Adding neighbor (7, 12) to stack
+ -> Adding neighbor (6, 13) to stack
+
+==================================================
+Current node: (6, 13) at depth 49
+Stack size: 58
+Visited nodes: 56
+ -> Adding neighbor (6, 14) to stack
+ -> Adding neighbor (6, 12) to stack
+
+==================================================
+Current node: (6, 12) at depth 50
+Stack size: 59
+Visited nodes: 57
+ -> Adding neighbor (6, 11) to stack
+ -> Adding neighbor (7, 12) to stack
+
+==================================================
+Current node: (7, 12) at depth 51
+Stack size: 60
+Visited nodes: 58
+ -> Adding neighbor (8, 12) to stack
+
+==================================================
+Current node: (8, 12) at depth 52
+Stack size: 60
+Visited nodes: 59
+ -> Adding neighbor (8, 13) to stack
+
+==================================================
+Current node: (8, 13) at depth 53
+Stack size: 60
+Visited nodes: 60
+
+==================================================
+Current node: (6, 11) at depth 51
+Stack size: 59
+Visited nodes: 61
+
+==================================================
+Current node: (6, 14) at depth 50
+Stack size: 58
+Visited nodes: 62
+
+==================================================
+Current node: (10, 14) at depth 46
+Stack size: 53
+Visited nodes: 63
+ -> Adding neighbor (10, 15) to stack
+ -> Adding neighbor (10, 13) to stack
+ -> Adding neighbor (11, 14) to stack
+
+==================================================
+Current node: (11, 14) at depth 47
+Stack size: 55
+Visited nodes: 64
+ -> Adding neighbor (11, 13) to stack
+ -> Adding neighbor (12, 14) to stack
+
+==================================================
+Current node: (12, 14) at depth 48
+Stack size: 56
+Visited nodes: 65
+ -> Adding neighbor (13, 14) to stack
+
+==================================================
+Current node: (13, 14) at depth 49
+Stack size: 56
+Visited nodes: 66
+ -> Adding neighbor (14, 14) to stack
+
+==================================================
+Current node: (14, 14) at depth 50
+Stack size: 56
+Visited nodes: 67
+ -> Adding neighbor (14, 13) to stack
+
+==================================================
+Current node: (14, 13) at depth 51
+Stack size: 56
+Visited nodes: 68
+ -> Adding neighbor (14, 12) to stack
+
+==================================================
+Current node: (14, 12) at depth 52
+Stack size: 56
+Visited nodes: 69
+ -> Adding neighbor (14, 11) to stack
+
+==================================================
+Current node: (14, 11) at depth 53
+Stack size: 56
+Visited nodes: 70
+ -> Adding neighbor (13, 11) to stack
+ -> Adding neighbor (14, 10) to stack
+
+==================================================
+Current node: (14, 10) at depth 54
+Stack size: 57
+Visited nodes: 71
+ -> Adding neighbor (13, 10) to stack
+ -> Adding neighbor (15, 10) to stack
+ -> Adding neighbor (14, 9) to stack
+
+==================================================
+Current node: (14, 9) at depth 55
+Stack size: 59
+Visited nodes: 72
+ -> Adding neighbor (13, 9) to stack
+ -> Adding neighbor (14, 8) to stack
+
+==================================================
+Current node: (14, 8) at depth 56
+Stack size: 60
+Visited nodes: 73
+ -> Adding neighbor (14, 7) to stack
+ -> Adding neighbor (13, 8) to stack
+
+==================================================
+Current node: (13, 8) at depth 57
+Stack size: 61
+Visited nodes: 74
+ -> Adding neighbor (13, 9) to stack
+ -> Adding neighbor (13, 7) to stack
+ -> Adding neighbor (12, 8) to stack
+
+==================================================
+Current node: (12, 8) at depth 58
+Stack size: 63
+Visited nodes: 75
+ -> Adding neighbor (11, 8) to stack
+ -> Adding neighbor (12, 9) to stack
+ -> Adding neighbor (12, 7) to stack
+
+==================================================
+Current node: (12, 7) at depth 59
+Stack size: 65
+Visited nodes: 76
+ -> Adding neighbor (11, 7) to stack
+ -> Adding neighbor (13, 7) to stack
+ -> Adding neighbor (12, 6) to stack
+
+==================================================
+Current node: (12, 6) at depth 60
+Stack size: 67
+Visited nodes: 77
+ -> Adding neighbor (13, 6) to stack
+ -> Adding neighbor (11, 6) to stack
+
+==================================================
+Current node: (11, 6) at depth 61
+Stack size: 68
+Visited nodes: 78
+ -> Adding neighbor (10, 6) to stack
+ -> Adding neighbor (11, 7) to stack
+
+==================================================
+Current node: (11, 7) at depth 62
+Stack size: 69
+Visited nodes: 79
+ -> Adding neighbor (10, 7) to stack
+ -> Adding neighbor (11, 8) to stack
+
+==================================================
+Current node: (11, 8) at depth 63
+Stack size: 70
+Visited nodes: 80
+ -> Adding neighbor (11, 9) to stack
+ -> Adding neighbor (10, 8) to stack
+
+==================================================
+Current node: (10, 8) at depth 64
+Stack size: 71
+Visited nodes: 81
+ -> Adding neighbor (10, 9) to stack
+ -> Adding neighbor (10, 7) to stack
+
+==================================================
+Current node: (10, 7) at depth 65
+Stack size: 72
+Visited nodes: 82
+ -> Adding neighbor (9, 7) to stack
+ -> Adding neighbor (10, 6) to stack
+
+==================================================
+Current node: (10, 6) at depth 66
+Stack size: 73
+Visited nodes: 83
+ -> Adding neighbor (10, 5) to stack
+ -> Adding neighbor (9, 6) to stack
+
+==================================================
+Current node: (9, 6) at depth 67
+Stack size: 74
+Visited nodes: 84
+ -> Adding neighbor (8, 6) to stack
+ -> Adding neighbor (9, 7) to stack
+
+==================================================
+Current node: (9, 7) at depth 68
+Stack size: 75
+Visited nodes: 85
+ -> Adding neighbor (8, 7) to stack
+
+==================================================
+Current node: (8, 7) at depth 69
+Stack size: 75
+Visited nodes: 86
+ -> Adding neighbor (7, 7) to stack
+ -> Adding neighbor (8, 6) to stack
+
+==================================================
+Current node: (8, 6) at depth 70
+Stack size: 76
+Visited nodes: 87
+ -> Adding neighbor (7, 6) to stack
+
+==================================================
+Current node: (7, 6) at depth 71
+Stack size: 76
+Visited nodes: 88
+ -> Adding neighbor (6, 6) to stack
+ -> Adding neighbor (7, 7) to stack
+
+==================================================
+Current node: (7, 7) at depth 72
+Stack size: 77
+Visited nodes: 89
+ -> Adding neighbor (7, 8) to stack
+ -> Adding neighbor (6, 7) to stack
+
+==================================================
+Current node: (6, 7) at depth 73
+Stack size: 78
+Visited nodes: 90
+ -> Adding neighbor (6, 8) to stack
+ -> Adding neighbor (6, 6) to stack
+
+==================================================
+Current node: (6, 6) at depth 74
+Stack size: 79
+Visited nodes: 91
+
+==================================================
+Current node: (6, 8) at depth 74
+Stack size: 78
+Visited nodes: 92
+ -> Adding neighbor (6, 9) to stack
+ -> Adding neighbor (7, 8) to stack
+
+==================================================
+Current node: (7, 8) at depth 75
+Stack size: 79
+Visited nodes: 93
+ -> Adding neighbor (7, 9) to stack
+
+==================================================
+Current node: (7, 9) at depth 76
+Stack size: 79
+Visited nodes: 94
+ -> Adding neighbor (6, 9) to stack
+
+==================================================
+Current node: (6, 9) at depth 77
+Stack size: 79
+Visited nodes: 95
+
+==================================================
+Current node: (10, 5) at depth 67
+Stack size: 73
+Visited nodes: 96
+ -> Adding neighbor (10, 4) to stack
+
+==================================================
+Current node: (10, 4) at depth 68
+Stack size: 73
+Visited nodes: 97
+ -> Adding neighbor (11, 4) to stack
+ -> Adding neighbor (10, 3) to stack
+ -> Adding neighbor (9, 4) to stack
+
+==================================================
+Current node: (9, 4) at depth 69
+Stack size: 75
+Visited nodes: 98
+ -> Adding neighbor (8, 4) to stack
+ -> Adding neighbor (9, 3) to stack
+
+==================================================
+Current node: (9, 3) at depth 70
+Stack size: 76
+Visited nodes: 99
+ -> Adding neighbor (10, 3) to stack
+ -> Adding neighbor (8, 3) to stack
+ -> Adding neighbor (9, 2) to stack
+
+==================================================
+Current node: (9, 2) at depth 71
+Stack size: 78
+Visited nodes: 100
+ -> Adding neighbor (10, 2) to stack
+ -> Adding neighbor (8, 2) to stack
+ -> Adding neighbor (9, 1) to stack
+
+==================================================
+Current node: (9, 1) at depth 72
+Stack size: 80
+Visited nodes: 101
+ -> Adding neighbor (8, 1) to stack
+ -> Adding neighbor (10, 1) to stack
+
+==================================================
+Current node: (10, 1) at depth 73
+Stack size: 81
+Visited nodes: 102
+ -> Adding neighbor (11, 1) to stack
+ -> Adding neighbor (10, 2) to stack
+
+==================================================
+Current node: (10, 2) at depth 74
+Stack size: 82
+Visited nodes: 103
+ -> Adding neighbor (10, 3) to stack
+ -> Adding neighbor (11, 2) to stack
+
+==================================================
+Current node: (11, 2) at depth 75
+Stack size: 83
+Visited nodes: 104
+ -> Adding neighbor (11, 3) to stack
+ -> Adding neighbor (12, 2) to stack
+ -> Adding neighbor (11, 1) to stack
+
+==================================================
+Current node: (11, 1) at depth 76
+Stack size: 85
+Visited nodes: 105
+ -> Adding neighbor (12, 1) to stack
+
+==================================================
+Current node: (12, 1) at depth 77
+Stack size: 85
+Visited nodes: 106
+ -> Adding neighbor (12, 2) to stack
+ -> Adding neighbor (13, 1) to stack
+
+==================================================
+Current node: (13, 1) at depth 78
+Stack size: 86
+Visited nodes: 107
+ -> Adding neighbor (14, 1) to stack
+ -> Adding neighbor (13, 2) to stack
+
+==================================================
+Current node: (13, 2) at depth 79
+Stack size: 87
+Visited nodes: 108
+ -> Adding neighbor (13, 3) to stack
+ -> Adding neighbor (14, 2) to stack
+ -> Adding neighbor (12, 2) to stack
+
+==================================================
+Current node: (12, 2) at depth 80
+Stack size: 89
+Visited nodes: 109
+ -> Adding neighbor (12, 3) to stack
+
+==================================================
+Current node: (12, 3) at depth 81
+Stack size: 89
+Visited nodes: 110
+ -> Adding neighbor (11, 3) to stack
+ -> Adding neighbor (13, 3) to stack
+ -> Adding neighbor (12, 4) to stack
+
+==================================================
+Current node: (12, 4) at depth 82
+Stack size: 91
+Visited nodes: 111
+ -> Adding neighbor (11, 4) to stack
+ -> Adding neighbor (13, 4) to stack
+
+==================================================
+Current node: (13, 4) at depth 83
+Stack size: 92
+Visited nodes: 112
+ -> Adding neighbor (14, 4) to stack
+ -> Adding neighbor (13, 3) to stack
+
+==================================================
+Current node: (13, 3) at depth 84
+Stack size: 93
+Visited nodes: 113
+ -> Adding neighbor (14, 3) to stack
+
+==================================================
+Current node: (14, 3) at depth 85
+Stack size: 93
+Visited nodes: 114
+ -> Adding neighbor (15, 3) to stack
+ -> Adding neighbor (14, 4) to stack
+ -> Adding neighbor (14, 2) to stack
+
+==================================================
+Current node: (14, 2) at depth 86
+Stack size: 95
+Visited nodes: 115
+ -> Adding neighbor (14, 1) to stack
+ -> Adding neighbor (15, 2) to stack
+
+==================================================
+Current node: (15, 2) at depth 87
+Stack size: 96
+Visited nodes: 116
+ -> Adding neighbor (15, 1) to stack
+ -> Adding neighbor (16, 2) to stack
+ -> Adding neighbor (15, 3) to stack
+
+==================================================
+Current node: (15, 3) at depth 88
+Stack size: 98
+Visited nodes: 117
+ -> Adding neighbor (15, 4) to stack
+ -> Adding neighbor (16, 3) to stack
+
+==================================================
+Current node: (16, 3) at depth 89
+Stack size: 99
+Visited nodes: 118
+ -> Adding neighbor (16, 4) to stack
+ -> Adding neighbor (16, 2) to stack
+ -> Adding neighbor (17, 3) to stack
+
+==================================================
+Current node: (17, 3) at depth 90
+Stack size: 101
+Visited nodes: 119
+ -> Adding neighbor (18, 3) to stack
+ -> Adding neighbor (17, 2) to stack
+ -> Adding neighbor (17, 4) to stack
+
+==================================================
+Current node: (17, 4) at depth 91
+Stack size: 103
+Visited nodes: 120
+ -> Adding neighbor (18, 4) to stack
+ -> Adding neighbor (17, 5) to stack
+ -> Adding neighbor (16, 4) to stack
+
+==================================================
+Current node: (16, 4) at depth 92
+Stack size: 105
+Visited nodes: 121
+ -> Adding neighbor (15, 4) to stack
+ -> Adding neighbor (16, 5) to stack
+
+==================================================
+Current node: (16, 5) at depth 93
+Stack size: 106
+Visited nodes: 122
+ -> Adding neighbor (17, 5) to stack
+ -> Adding neighbor (16, 6) to stack
+
+==================================================
+Current node: (16, 6) at depth 94
+Stack size: 107
+Visited nodes: 123
+ -> Adding neighbor (16, 7) to stack
+ -> Adding neighbor (17, 6) to stack
+
+==================================================
+Current node: (17, 6) at depth 95
+Stack size: 108
+Visited nodes: 124
+ -> Adding neighbor (17, 7) to stack
+ -> Adding neighbor (18, 6) to stack
+ -> Adding neighbor (17, 5) to stack
+
+==================================================
+Current node: (17, 5) at depth 96
+Stack size: 110
+Visited nodes: 125
+ -> Adding neighbor (18, 5) to stack
+
+==================================================
+Current node: (18, 5) at depth 97
+Stack size: 110
+Visited nodes: 126
+ -> Adding neighbor (18, 6) to stack
+ -> Adding neighbor (18, 4) to stack
+
+==================================================
+Current node: (18, 4) at depth 98
+Stack size: 111
+Visited nodes: 127
+ -> Adding neighbor (18, 3) to stack
+
+==================================================
+Current node: (18, 3) at depth 99
+Stack size: 111
+Visited nodes: 128
+ -> Adding neighbor (18, 2) to stack
+
+==================================================
+Current node: (18, 2) at depth 100
+Stack size: 111
+Visited nodes: 129
+ -> Adding neighbor (18, 1) to stack
+ -> Adding neighbor (17, 2) to stack
+
+==================================================
+Current node: (17, 2) at depth 101
+Stack size: 112
+Visited nodes: 130
+ -> Adding neighbor (16, 2) to stack
+ -> Adding neighbor (17, 1) to stack
+
+==================================================
+Current node: (17, 1) at depth 102
+Stack size: 113
+Visited nodes: 131
+ -> Adding neighbor (18, 1) to stack
+ -> Adding neighbor (16, 1) to stack
+
+==================================================
+Current node: (16, 1) at depth 103
+Stack size: 114
+Visited nodes: 132
+ -> Adding neighbor (16, 2) to stack
+ -> Adding neighbor (15, 1) to stack
+
+==================================================
+Current node: (15, 1) at depth 104
+Stack size: 115
+Visited nodes: 133
+ -> Adding neighbor (14, 1) to stack
+
+==================================================
+Current node: (14, 1) at depth 105
+Stack size: 115
+Visited nodes: 134
+
+==================================================
+Current node: (16, 2) at depth 104
+Stack size: 114
+Visited nodes: 135
+
+==================================================
+Current node: (18, 1) at depth 103
+Stack size: 113
+Visited nodes: 136
+
+==================================================
+Current node: (18, 6) at depth 98
+Stack size: 110
+Visited nodes: 137
+ -> Adding neighbor (18, 7) to stack
+
+==================================================
+Current node: (18, 7) at depth 99
+Stack size: 110
+Visited nodes: 138
+ -> Adding neighbor (18, 8) to stack
+ -> Adding neighbor (17, 7) to stack
+
+==================================================
+Current node: (17, 7) at depth 100
+Stack size: 111
+Visited nodes: 139
+ -> Adding neighbor (17, 8) to stack
+ -> Adding neighbor (16, 7) to stack
+
+==================================================
+Current node: (16, 7) at depth 101
+Stack size: 112
+Visited nodes: 140
+ -> Adding neighbor (16, 8) to stack
+
+==================================================
+Current node: (16, 8) at depth 102
+Stack size: 112
+Visited nodes: 141
+ -> Adding neighbor (16, 9) to stack
+ -> Adding neighbor (17, 8) to stack
+
+==================================================
+Current node: (17, 8) at depth 103
+Stack size: 113
+Visited nodes: 142
+ -> Adding neighbor (17, 9) to stack
+ -> Adding neighbor (18, 8) to stack
+
+==================================================
+Current node: (18, 8) at depth 104
+Stack size: 114
+Visited nodes: 143
+ -> Adding neighbor (18, 9) to stack
+
+==================================================
+Current node: (18, 9) at depth 105
+Stack size: 114
+Visited nodes: 144
+ -> Adding neighbor (18, 10) to stack
+ -> Adding neighbor (17, 9) to stack
+
+==================================================
+Current node: (17, 9) at depth 106
+Stack size: 115
+Visited nodes: 145
+ -> Adding neighbor (16, 9) to stack
+ -> Adding neighbor (17, 10) to stack
+
+==================================================
+Current node: (17, 10) at depth 107
+Stack size: 116
+Visited nodes: 146
+ -> Adding neighbor (17, 11) to stack
+ -> Adding neighbor (18, 10) to stack
+ -> Adding neighbor (16, 10) to stack
+
+==================================================
+Current node: (16, 10) at depth 108
+Stack size: 118
+Visited nodes: 147
+ -> Adding neighbor (16, 9) to stack
+ -> Adding neighbor (15, 10) to stack
+ -> Adding neighbor (16, 11) to stack
+
+==================================================
+Current node: (16, 11) at depth 109
+Stack size: 120
+Visited nodes: 148
+ -> Adding neighbor (17, 11) to stack
+ -> Adding neighbor (16, 12) to stack
+
+==================================================
+Current node: (16, 12) at depth 110
+Stack size: 121
+Visited nodes: 149
+ -> Adding neighbor (16, 13) to stack
+ -> Adding neighbor (17, 12) to stack
+
+==================================================
+Current node: (17, 12) at depth 111
+Stack size: 122
+Visited nodes: 150
+ -> Adding neighbor (18, 12) to stack
+ -> Adding neighbor (17, 11) to stack
+ -> Adding neighbor (17, 13) to stack
+
+==================================================
+Current node: (17, 13) at depth 112
+Stack size: 124
+Visited nodes: 151
+ -> Adding neighbor (16, 13) to stack
+ -> Adding neighbor (18, 13) to stack
+ -> Adding neighbor (17, 14) to stack
+
+==================================================
+Current node: (17, 14) at depth 113
+Stack size: 126
+Visited nodes: 152
+ -> Adding neighbor (16, 14) to stack
+ -> Adding neighbor (17, 15) to stack
+ -> Adding neighbor (18, 14) to stack
+
+==================================================
+Current node: (18, 14) at depth 114
+Stack size: 128
+Visited nodes: 153
+ -> Adding neighbor (18, 15) to stack
+ -> Adding neighbor (18, 13) to stack
+
+==================================================
+Current node: (18, 13) at depth 115
+Stack size: 129
+Visited nodes: 154
+ -> Adding neighbor (18, 12) to stack
+
+==================================================
+Current node: (18, 12) at depth 116
+Stack size: 129
+Visited nodes: 155
+ -> Adding neighbor (18, 11) to stack
+
+==================================================
+Current node: (18, 11) at depth 117
+Stack size: 129
+Visited nodes: 156
+ -> Adding neighbor (18, 10) to stack
+ -> Adding neighbor (17, 11) to stack
+
+==================================================
+Current node: (17, 11) at depth 118
+Stack size: 130
+Visited nodes: 157
+
+==================================================
+Current node: (18, 10) at depth 118
+Stack size: 129
+Visited nodes: 158
+
+==================================================
+Current node: (18, 15) at depth 115
+Stack size: 128
+Visited nodes: 159
+ -> Adding neighbor (18, 16) to stack
+ -> Adding neighbor (17, 15) to stack
+
+==================================================
+Current node: (17, 15) at depth 116
+Stack size: 129
+Visited nodes: 160
+ -> Adding neighbor (16, 15) to stack
+
+==================================================
+Current node: (16, 15) at depth 117
+Stack size: 129
+Visited nodes: 161
+ -> Adding neighbor (15, 15) to stack
+ -> Adding neighbor (16, 14) to stack
+
+==================================================
+Current node: (16, 14) at depth 118
+Stack size: 130
+Visited nodes: 162
+ -> Adding neighbor (16, 13) to stack
+
+==================================================
+Current node: (16, 13) at depth 119
+Stack size: 130
+Visited nodes: 163
+
+==================================================
+Current node: (15, 15) at depth 118
+Stack size: 129
+Visited nodes: 164
+ -> Adding neighbor (15, 16) to stack
+
+==================================================
+Current node: (15, 16) at depth 119
+Stack size: 129
+Visited nodes: 165
+ -> Adding neighbor (15, 17) to stack
+ -> Adding neighbor (14, 16) to stack
+
+==================================================
+Current node: (14, 16) at depth 120
+Stack size: 130
+Visited nodes: 166
+ -> Adding neighbor (14, 17) to stack
+ -> Adding neighbor (13, 16) to stack
+
+==================================================
+Current node: (13, 16) at depth 121
+Stack size: 131
+Visited nodes: 167
+ -> Adding neighbor (12, 16) to stack
+ -> Adding neighbor (13, 17) to stack
+
+==================================================
+Current node: (13, 17) at depth 122
+Stack size: 132
+Visited nodes: 168
+ -> Adding neighbor (12, 17) to stack
+ -> Adding neighbor (14, 17) to stack
+ -> Adding neighbor (13, 18) to stack
+
+==================================================
+Current node: (13, 18) at depth 123
+Stack size: 134
+Visited nodes: 169
+ -> Adding neighbor (12, 18) to stack
+ -> Adding neighbor (14, 18) to stack
+
+==================================================
+Current node: (14, 18) at depth 124
+Stack size: 135
+Visited nodes: 170
+ -> Adding neighbor (14, 17) to stack
+ -> Adding neighbor (15, 18) to stack
+
+==================================================
+Current node: (15, 18) at depth 125
+Stack size: 136
+Visited nodes: 171
+ -> Adding neighbor (16, 18) to stack
+ -> Adding neighbor (15, 17) to stack
+
+==================================================
+Current node: (15, 17) at depth 126
+Stack size: 137
+Visited nodes: 172
+ -> Adding neighbor (14, 17) to stack
+
+==================================================
+Current node: (14, 17) at depth 127
+Stack size: 137
+Visited nodes: 173
+
+==================================================
+Current node: (16, 18) at depth 126
+Stack size: 136
+Visited nodes: 174
+ -> Adding neighbor (17, 18) to stack
+
+==================================================
+Current node: (17, 18) at depth 127
+Stack size: 136
+Visited nodes: 175
+ -> Adding neighbor (18, 18) to stack
+ -> Adding neighbor (17, 17) to stack
+
+==================================================
+Current node: (17, 17) at depth 128
+Stack size: 137
+Visited nodes: 176
+ -> Adding neighbor (18, 17) to stack
+
+==================================================
+Current node: (18, 17) at depth 129
+Stack size: 137
+Visited nodes: 177
+ -> Adding neighbor (18, 16) to stack
+ -> Adding neighbor (18, 18) to stack
+
+==================================================
+Current node: (18, 18) at depth 130
+Stack size: 138
+Visited nodes: 178
+Path found: [(1, 1), (2, 1), (2, 2), (1, 2), (1, 3), (1, 4), (2, 4), (2, 5), (3, 5), (4, 5), (4, 6), (3, 6), (2, 6), (1, 6), (1, 7), (1, 8), (2, 8), (3, 8), (4, 8), (4, 9), (3, 9), (2, 9), (2, 10), (1, 10), (1, 11), (1, 12), (2, 12), (3, 12), (3, 11), (3, 10), (4, 10), (5, 10), (6, 10), (7, 10), (7, 11), (8, 11), (8, 10), (9, 10), (10, 10), (11, 10), (11, 11), (10, 11), (9, 11), (9, 12), (9, 13), (9, 14), (10, 14), (11, 14), (12, 14), (13, 14), (14, 14), (14, 13), (14, 12), (14, 11), (14, 10), (14, 9), (14, 8), (13, 8), (12, 8), (12, 7), (12, 6), (11, 6), (11, 7), (11, 8), (10, 8), (10, 7), (10, 6), (10, 5), (10, 4), (9, 4), (9, 3), (9, 2), (9, 1), (10, 1), (10, 2), (11, 2), (11, 1), (12, 1), (13, 1), (13, 2), (12, 2), (12, 3), (12, 4), (13, 4), (13, 3), (14, 3), (14, 2), (15, 2), (15, 3), (16, 3), (17, 3), (17, 4), (16, 4), (16, 5), (16, 6), (17, 6), (17, 5), (18, 5), (18, 6), (18, 7), (17, 7), (16, 7), (16, 8), (17, 8), (18, 8), (18, 9), (17, 9), (17, 10), (16, 10), (16, 11), (16, 12), (17, 12), (17, 13), (17, 14), (18, 14), (18, 15), (17, 15), (16, 15), (15, 15), (15, 16), (14, 16), (13, 16), (13, 17), (13, 18), (14, 18), (15, 18), (16, 18), (17, 18), (17, 17), (18, 17), (18, 18)]
+Recording saved as recordings/dfs_random_demo_20250911_151432.mp4
+==================================================
+End time: 2025-09-11 15:14:35

@@ -1,0 +1,1839 @@
+BFS Pathfinding Demo (Randomized Neighbor Order)
+==================================================
+Start time: 2025-09-11 15:21:12
+==================================================
+Start position: (1, 1)
+Goal position: (18, 18)
+==================================================
+
+==================================================
+Current node: (1, 1) at depth 0
+Queue size: 0
+Visited nodes: 1
+ -> Adding neighbor (2, 1) to queue
+ -> Adding neighbor (1, 2) to queue
+
+==================================================
+Current node: (2, 1) at depth 1
+Queue size: 1
+Visited nodes: 2
+ -> Adding neighbor (2, 2) to queue
+ -> Adding neighbor (3, 1) to queue
+
+==================================================
+Current node: (1, 2) at depth 1
+Queue size: 2
+Visited nodes: 3
+ -> Adding neighbor (2, 2) to queue
+ -> Adding neighbor (1, 3) to queue
+
+==================================================
+Current node: (2, 2) at depth 2
+Queue size: 3
+Visited nodes: 4
+ -> Adding neighbor (2, 3) to queue
+ -> Adding neighbor (3, 2) to queue
+
+==================================================
+Current node: (3, 1) at depth 2
+Queue size: 4
+Visited nodes: 5
+ -> Adding neighbor (4, 1) to queue
+ -> Adding neighbor (3, 2) to queue
+
+==================================================
+Current node: (1, 3) at depth 2
+Queue size: 4
+Visited nodes: 6
+ -> Adding neighbor (1, 4) to queue
+ -> Adding neighbor (2, 3) to queue
+
+==================================================
+Current node: (2, 3) at depth 3
+Queue size: 5
+Visited nodes: 7
+ -> Adding neighbor (2, 4) to queue
+
+==================================================
+Current node: (3, 2) at depth 3
+Queue size: 5
+Visited nodes: 8
+ -> Adding neighbor (4, 2) to queue
+
+==================================================
+Current node: (4, 1) at depth 3
+Queue size: 5
+Visited nodes: 9
+ -> Adding neighbor (5, 1) to queue
+ -> Adding neighbor (4, 2) to queue
+
+==================================================
+Current node: (1, 4) at depth 3
+Queue size: 5
+Visited nodes: 10
+ -> Adding neighbor (2, 4) to queue
+ -> Adding neighbor (1, 5) to queue
+
+==================================================
+Current node: (2, 4) at depth 4
+Queue size: 5
+Visited nodes: 11
+ -> Adding neighbor (2, 5) to queue
+
+==================================================
+Current node: (4, 2) at depth 4
+Queue size: 5
+Visited nodes: 12
+ -> Adding neighbor (5, 2) to queue
+
+==================================================
+Current node: (5, 1) at depth 4
+Queue size: 5
+Visited nodes: 13
+ -> Adding neighbor (6, 1) to queue
+ -> Adding neighbor (5, 2) to queue
+
+==================================================
+Current node: (1, 5) at depth 4
+Queue size: 4
+Visited nodes: 14
+ -> Adding neighbor (2, 5) to queue
+ -> Adding neighbor (1, 6) to queue
+
+==================================================
+Current node: (2, 5) at depth 5
+Queue size: 5
+Visited nodes: 15
+ -> Adding neighbor (2, 6) to queue
+ -> Adding neighbor (3, 5) to queue
+
+==================================================
+Current node: (5, 2) at depth 5
+Queue size: 6
+Visited nodes: 16
+ -> Adding neighbor (6, 2) to queue
+ -> Adding neighbor (5, 3) to queue
+
+==================================================
+Current node: (6, 1) at depth 5
+Queue size: 7
+Visited nodes: 17
+ -> Adding neighbor (6, 2) to queue
+ -> Adding neighbor (7, 1) to queue
+
+==================================================
+Current node: (1, 6) at depth 5
+Queue size: 6
+Visited nodes: 18
+ -> Adding neighbor (2, 6) to queue
+ -> Adding neighbor (1, 7) to queue
+
+==================================================
+Current node: (2, 6) at depth 6
+Queue size: 7
+Visited nodes: 19
+ -> Adding neighbor (2, 7) to queue
+ -> Adding neighbor (3, 6) to queue
+
+==================================================
+Current node: (3, 5) at depth 6
+Queue size: 8
+Visited nodes: 20
+ -> Adding neighbor (4, 5) to queue
+ -> Adding neighbor (3, 6) to queue
+
+==================================================
+Current node: (6, 2) at depth 6
+Queue size: 9
+Visited nodes: 21
+ -> Adding neighbor (7, 2) to queue
+ -> Adding neighbor (6, 3) to queue
+
+==================================================
+Current node: (5, 3) at depth 6
+Queue size: 10
+Visited nodes: 22
+ -> Adding neighbor (6, 3) to queue
+ -> Adding neighbor (5, 4) to queue
+
+==================================================
+Current node: (7, 1) at depth 6
+Queue size: 10
+Visited nodes: 23
+ -> Adding neighbor (7, 2) to queue
+ -> Adding neighbor (8, 1) to queue
+
+==================================================
+Current node: (1, 7) at depth 6
+Queue size: 10
+Visited nodes: 24
+ -> Adding neighbor (2, 7) to queue
+ -> Adding neighbor (1, 8) to queue
+
+==================================================
+Current node: (2, 7) at depth 7
+Queue size: 11
+Visited nodes: 25
+ -> Adding neighbor (3, 7) to queue
+ -> Adding neighbor (2, 8) to queue
+
+==================================================
+Current node: (3, 6) at depth 7
+Queue size: 12
+Visited nodes: 26
+ -> Adding neighbor (3, 7) to queue
+ -> Adding neighbor (4, 6) to queue
+
+==================================================
+Current node: (4, 5) at depth 7
+Queue size: 13
+Visited nodes: 27
+ -> Adding neighbor (4, 6) to queue
+ -> Adding neighbor (4, 4) to queue
+
+==================================================
+Current node: (7, 2) at depth 7
+Queue size: 13
+Visited nodes: 28
+ -> Adding neighbor (7, 3) to queue
+ -> Adding neighbor (8, 2) to queue
+
+==================================================
+Current node: (6, 3) at depth 7
+Queue size: 14
+Visited nodes: 29
+ -> Adding neighbor (7, 3) to queue
+ -> Adding neighbor (6, 4) to queue
+
+==================================================
+Current node: (5, 4) at depth 7
+Queue size: 14
+Visited nodes: 30
+ -> Adding neighbor (4, 4) to queue
+ -> Adding neighbor (6, 4) to queue
+
+==================================================
+Current node: (8, 1) at depth 7
+Queue size: 14
+Visited nodes: 31
+ -> Adding neighbor (9, 1) to queue
+ -> Adding neighbor (8, 2) to queue
+
+==================================================
+Current node: (1, 8) at depth 7
+Queue size: 14
+Visited nodes: 32
+ -> Adding neighbor (2, 8) to queue
+ -> Adding neighbor (1, 9) to queue
+
+==================================================
+Current node: (3, 7) at depth 8
+Queue size: 15
+Visited nodes: 33
+ -> Adding neighbor (4, 7) to queue
+ -> Adding neighbor (3, 8) to queue
+
+==================================================
+Current node: (2, 8) at depth 8
+Queue size: 16
+Visited nodes: 34
+ -> Adding neighbor (2, 9) to queue
+ -> Adding neighbor (3, 8) to queue
+
+==================================================
+Current node: (4, 6) at depth 8
+Queue size: 16
+Visited nodes: 35
+ -> Adding neighbor (4, 7) to queue
+
+==================================================
+Current node: (4, 4) at depth 8
+Queue size: 15
+Visited nodes: 36
+
+==================================================
+Current node: (7, 3) at depth 8
+Queue size: 14
+Visited nodes: 37
+ -> Adding neighbor (8, 3) to queue
+ -> Adding neighbor (7, 4) to queue
+
+==================================================
+Current node: (8, 2) at depth 8
+Queue size: 15
+Visited nodes: 38
+ -> Adding neighbor (9, 2) to queue
+ -> Adding neighbor (8, 3) to queue
+
+==================================================
+Current node: (6, 4) at depth 8
+Queue size: 15
+Visited nodes: 39
+ -> Adding neighbor (7, 4) to queue
+
+==================================================
+Current node: (9, 1) at depth 8
+Queue size: 13
+Visited nodes: 40
+ -> Adding neighbor (10, 1) to queue
+ -> Adding neighbor (9, 2) to queue
+
+==================================================
+Current node: (1, 9) at depth 8
+Queue size: 12
+Visited nodes: 41
+ -> Adding neighbor (1, 10) to queue
+ -> Adding neighbor (2, 9) to queue
+
+==================================================
+Current node: (4, 7) at depth 9
+Queue size: 13
+Visited nodes: 42
+ -> Adding neighbor (4, 8) to queue
+
+==================================================
+Current node: (3, 8) at depth 9
+Queue size: 13
+Visited nodes: 43
+ -> Adding neighbor (3, 9) to queue
+ -> Adding neighbor (4, 8) to queue
+
+==================================================
+Current node: (2, 9) at depth 9
+Queue size: 14
+Visited nodes: 44
+ -> Adding neighbor (2, 10) to queue
+ -> Adding neighbor (3, 9) to queue
+
+==================================================
+Current node: (8, 3) at depth 9
+Queue size: 13
+Visited nodes: 45
+ -> Adding neighbor (9, 3) to queue
+ -> Adding neighbor (8, 4) to queue
+
+==================================================
+Current node: (7, 4) at depth 9
+Queue size: 14
+Visited nodes: 46
+ -> Adding neighbor (8, 4) to queue
+
+==================================================
+Current node: (9, 2) at depth 9
+Queue size: 14
+Visited nodes: 47
+ -> Adding neighbor (10, 2) to queue
+ -> Adding neighbor (9, 3) to queue
+
+==================================================
+Current node: (10, 1) at depth 9
+Queue size: 13
+Visited nodes: 48
+ -> Adding neighbor (10, 2) to queue
+ -> Adding neighbor (11, 1) to queue
+
+==================================================
+Current node: (1, 10) at depth 9
+Queue size: 13
+Visited nodes: 49
+ -> Adding neighbor (1, 11) to queue
+ -> Adding neighbor (2, 10) to queue
+
+==================================================
+Current node: (4, 8) at depth 10
+Queue size: 13
+Visited nodes: 50
+ -> Adding neighbor (4, 9) to queue
+
+==================================================
+Current node: (3, 9) at depth 10
+Queue size: 13
+Visited nodes: 51
+ -> Adding neighbor (4, 9) to queue
+ -> Adding neighbor (3, 10) to queue
+
+==================================================
+Current node: (2, 10) at depth 10
+Queue size: 13
+Visited nodes: 52
+ -> Adding neighbor (2, 11) to queue
+ -> Adding neighbor (3, 10) to queue
+
+==================================================
+Current node: (9, 3) at depth 10
+Queue size: 13
+Visited nodes: 53
+ -> Adding neighbor (10, 3) to queue
+ -> Adding neighbor (9, 4) to queue
+
+==================================================
+Current node: (8, 4) at depth 10
+Queue size: 14
+Visited nodes: 54
+ -> Adding neighbor (9, 4) to queue
+
+==================================================
+Current node: (10, 2) at depth 10
+Queue size: 13
+Visited nodes: 55
+ -> Adding neighbor (11, 2) to queue
+ -> Adding neighbor (10, 3) to queue
+
+==================================================
+Current node: (11, 1) at depth 10
+Queue size: 12
+Visited nodes: 56
+ -> Adding neighbor (12, 1) to queue
+ -> Adding neighbor (11, 2) to queue
+
+==================================================
+Current node: (1, 11) at depth 10
+Queue size: 13
+Visited nodes: 57
+ -> Adding neighbor (1, 12) to queue
+ -> Adding neighbor (2, 11) to queue
+
+==================================================
+Current node: (4, 9) at depth 11
+Queue size: 13
+Visited nodes: 58
+ -> Adding neighbor (4, 10) to queue
+
+==================================================
+Current node: (3, 10) at depth 11
+Queue size: 12
+Visited nodes: 59
+ -> Adding neighbor (3, 11) to queue
+ -> Adding neighbor (4, 10) to queue
+
+==================================================
+Current node: (2, 11) at depth 11
+Queue size: 13
+Visited nodes: 60
+ -> Adding neighbor (3, 11) to queue
+ -> Adding neighbor (2, 12) to queue
+
+==================================================
+Current node: (10, 3) at depth 11
+Queue size: 13
+Visited nodes: 61
+ -> Adding neighbor (10, 4) to queue
+ -> Adding neighbor (11, 3) to queue
+
+==================================================
+Current node: (9, 4) at depth 11
+Queue size: 14
+Visited nodes: 62
+ -> Adding neighbor (10, 4) to queue
+
+==================================================
+Current node: (11, 2) at depth 11
+Queue size: 13
+Visited nodes: 63
+ -> Adding neighbor (11, 3) to queue
+ -> Adding neighbor (12, 2) to queue
+
+==================================================
+Current node: (12, 1) at depth 11
+Queue size: 13
+Visited nodes: 64
+ -> Adding neighbor (12, 2) to queue
+ -> Adding neighbor (13, 1) to queue
+
+==================================================
+Current node: (1, 12) at depth 11
+Queue size: 13
+Visited nodes: 65
+ -> Adding neighbor (1, 13) to queue
+ -> Adding neighbor (2, 12) to queue
+
+==================================================
+Current node: (4, 10) at depth 12
+Queue size: 13
+Visited nodes: 66
+ -> Adding neighbor (5, 10) to queue
+ -> Adding neighbor (4, 11) to queue
+
+==================================================
+Current node: (3, 11) at depth 12
+Queue size: 14
+Visited nodes: 67
+ -> Adding neighbor (3, 12) to queue
+ -> Adding neighbor (4, 11) to queue
+
+==================================================
+Current node: (2, 12) at depth 12
+Queue size: 13
+Visited nodes: 68
+ -> Adding neighbor (2, 13) to queue
+ -> Adding neighbor (3, 12) to queue
+
+==================================================
+Current node: (10, 4) at depth 12
+Queue size: 14
+Visited nodes: 69
+ -> Adding neighbor (10, 5) to queue
+ -> Adding neighbor (11, 4) to queue
+
+==================================================
+Current node: (11, 3) at depth 12
+Queue size: 15
+Visited nodes: 70
+ -> Adding neighbor (11, 4) to queue
+ -> Adding neighbor (12, 3) to queue
+
+==================================================
+Current node: (12, 2) at depth 12
+Queue size: 14
+Visited nodes: 71
+ -> Adding neighbor (13, 2) to queue
+ -> Adding neighbor (12, 3) to queue
+
+==================================================
+Current node: (13, 1) at depth 12
+Queue size: 14
+Visited nodes: 72
+ -> Adding neighbor (14, 1) to queue
+ -> Adding neighbor (13, 2) to queue
+
+==================================================
+Current node: (1, 13) at depth 12
+Queue size: 15
+Visited nodes: 73
+ -> Adding neighbor (1, 14) to queue
+ -> Adding neighbor (2, 13) to queue
+
+==================================================
+Current node: (5, 10) at depth 13
+Queue size: 15
+Visited nodes: 74
+ -> Adding neighbor (6, 10) to queue
+
+==================================================
+Current node: (4, 11) at depth 13
+Queue size: 15
+Visited nodes: 75
+ -> Adding neighbor (4, 12) to queue
+
+==================================================
+Current node: (3, 12) at depth 13
+Queue size: 15
+Visited nodes: 76
+ -> Adding neighbor (3, 13) to queue
+ -> Adding neighbor (4, 12) to queue
+
+==================================================
+Current node: (2, 13) at depth 13
+Queue size: 15
+Visited nodes: 77
+ -> Adding neighbor (2, 14) to queue
+ -> Adding neighbor (3, 13) to queue
+
+==================================================
+Current node: (10, 5) at depth 13
+Queue size: 15
+Visited nodes: 78
+ -> Adding neighbor (10, 6) to queue
+
+==================================================
+Current node: (11, 4) at depth 13
+Queue size: 15
+Visited nodes: 79
+ -> Adding neighbor (12, 4) to queue
+
+==================================================
+Current node: (12, 3) at depth 13
+Queue size: 14
+Visited nodes: 80
+ -> Adding neighbor (13, 3) to queue
+ -> Adding neighbor (12, 4) to queue
+
+==================================================
+Current node: (13, 2) at depth 13
+Queue size: 15
+Visited nodes: 81
+ -> Adding neighbor (13, 3) to queue
+ -> Adding neighbor (14, 2) to queue
+
+==================================================
+Current node: (14, 1) at depth 13
+Queue size: 15
+Visited nodes: 82
+ -> Adding neighbor (15, 1) to queue
+ -> Adding neighbor (14, 2) to queue
+
+==================================================
+Current node: (1, 14) at depth 13
+Queue size: 15
+Visited nodes: 83
+ -> Adding neighbor (2, 14) to queue
+ -> Adding neighbor (1, 15) to queue
+
+==================================================
+Current node: (6, 10) at depth 14
+Queue size: 15
+Visited nodes: 84
+ -> Adding neighbor (7, 10) to queue
+ -> Adding neighbor (6, 9) to queue
+ -> Adding neighbor (6, 11) to queue
+
+==================================================
+Current node: (4, 12) at depth 14
+Queue size: 17
+Visited nodes: 85
+ -> Adding neighbor (4, 13) to queue
+
+==================================================
+Current node: (3, 13) at depth 14
+Queue size: 17
+Visited nodes: 86
+ -> Adding neighbor (3, 14) to queue
+ -> Adding neighbor (4, 13) to queue
+
+==================================================
+Current node: (2, 14) at depth 14
+Queue size: 17
+Visited nodes: 87
+ -> Adding neighbor (3, 14) to queue
+ -> Adding neighbor (2, 15) to queue
+
+==================================================
+Current node: (10, 6) at depth 14
+Queue size: 17
+Visited nodes: 88
+ -> Adding neighbor (10, 7) to queue
+ -> Adding neighbor (11, 6) to queue
+ -> Adding neighbor (9, 6) to queue
+
+==================================================
+Current node: (12, 4) at depth 14
+Queue size: 19
+Visited nodes: 89
+ -> Adding neighbor (13, 4) to queue
+
+==================================================
+Current node: (13, 3) at depth 14
+Queue size: 19
+Visited nodes: 90
+ -> Adding neighbor (13, 4) to queue
+ -> Adding neighbor (14, 3) to queue
+
+==================================================
+Current node: (14, 2) at depth 14
+Queue size: 18
+Visited nodes: 91
+ -> Adding neighbor (15, 2) to queue
+ -> Adding neighbor (14, 3) to queue
+
+==================================================
+Current node: (15, 1) at depth 14
+Queue size: 19
+Visited nodes: 92
+ -> Adding neighbor (16, 1) to queue
+ -> Adding neighbor (15, 2) to queue
+
+==================================================
+Current node: (1, 15) at depth 14
+Queue size: 18
+Visited nodes: 93
+ -> Adding neighbor (2, 15) to queue
+ -> Adding neighbor (1, 16) to queue
+
+==================================================
+Current node: (7, 10) at depth 15
+Queue size: 19
+Visited nodes: 94
+ -> Adding neighbor (8, 10) to queue
+ -> Adding neighbor (7, 9) to queue
+ -> Adding neighbor (7, 11) to queue
+
+==================================================
+Current node: (6, 9) at depth 15
+Queue size: 21
+Visited nodes: 95
+ -> Adding neighbor (6, 8) to queue
+ -> Adding neighbor (7, 9) to queue
+
+==================================================
+Current node: (6, 11) at depth 15
+Queue size: 22
+Visited nodes: 96
+ -> Adding neighbor (6, 12) to queue
+ -> Adding neighbor (7, 11) to queue
+
+==================================================
+Current node: (4, 13) at depth 15
+Queue size: 23
+Visited nodes: 97
+ -> Adding neighbor (4, 14) to queue
+
+==================================================
+Current node: (3, 14) at depth 15
+Queue size: 23
+Visited nodes: 98
+ -> Adding neighbor (4, 14) to queue
+ -> Adding neighbor (3, 15) to queue
+
+==================================================
+Current node: (2, 15) at depth 15
+Queue size: 22
+Visited nodes: 99
+ -> Adding neighbor (2, 16) to queue
+ -> Adding neighbor (3, 15) to queue
+
+==================================================
+Current node: (10, 7) at depth 15
+Queue size: 23
+Visited nodes: 100
+ -> Adding neighbor (10, 8) to queue
+ -> Adding neighbor (9, 7) to queue
+ -> Adding neighbor (11, 7) to queue
+
+==================================================
+Current node: (11, 6) at depth 15
+Queue size: 25
+Visited nodes: 101
+ -> Adding neighbor (11, 7) to queue
+ -> Adding neighbor (12, 6) to queue
+
+==================================================
+Current node: (9, 6) at depth 15
+Queue size: 26
+Visited nodes: 102
+ -> Adding neighbor (8, 6) to queue
+ -> Adding neighbor (9, 7) to queue
+
+==================================================
+Current node: (13, 4) at depth 15
+Queue size: 27
+Visited nodes: 103
+ -> Adding neighbor (14, 4) to queue
+
+==================================================
+Current node: (14, 3) at depth 15
+Queue size: 26
+Visited nodes: 104
+ -> Adding neighbor (14, 4) to queue
+ -> Adding neighbor (15, 3) to queue
+
+==================================================
+Current node: (15, 2) at depth 15
+Queue size: 27
+Visited nodes: 105
+ -> Adding neighbor (16, 2) to queue
+ -> Adding neighbor (15, 3) to queue
+
+==================================================
+Current node: (16, 1) at depth 15
+Queue size: 27
+Visited nodes: 106
+ -> Adding neighbor (16, 2) to queue
+ -> Adding neighbor (17, 1) to queue
+
+==================================================
+Current node: (1, 16) at depth 15
+Queue size: 26
+Visited nodes: 107
+ -> Adding neighbor (1, 17) to queue
+ -> Adding neighbor (2, 16) to queue
+
+==================================================
+Current node: (8, 10) at depth 16
+Queue size: 27
+Visited nodes: 108
+ -> Adding neighbor (9, 10) to queue
+ -> Adding neighbor (8, 11) to queue
+
+==================================================
+Current node: (7, 9) at depth 16
+Queue size: 28
+Visited nodes: 109
+ -> Adding neighbor (7, 8) to queue
+
+==================================================
+Current node: (7, 11) at depth 16
+Queue size: 28
+Visited nodes: 110
+ -> Adding neighbor (7, 12) to queue
+ -> Adding neighbor (8, 11) to queue
+
+==================================================
+Current node: (6, 8) at depth 16
+Queue size: 29
+Visited nodes: 111
+ -> Adding neighbor (6, 7) to queue
+ -> Adding neighbor (7, 8) to queue
+
+==================================================
+Current node: (6, 12) at depth 16
+Queue size: 29
+Visited nodes: 112
+ -> Adding neighbor (6, 13) to queue
+ -> Adding neighbor (7, 12) to queue
+
+==================================================
+Current node: (4, 14) at depth 16
+Queue size: 29
+Visited nodes: 113
+ -> Adding neighbor (4, 15) to queue
+
+==================================================
+Current node: (3, 15) at depth 16
+Queue size: 28
+Visited nodes: 114
+ -> Adding neighbor (4, 15) to queue
+ -> Adding neighbor (3, 16) to queue
+
+==================================================
+Current node: (2, 16) at depth 16
+Queue size: 29
+Visited nodes: 115
+ -> Adding neighbor (2, 17) to queue
+ -> Adding neighbor (3, 16) to queue
+
+==================================================
+Current node: (10, 8) at depth 16
+Queue size: 29
+Visited nodes: 116
+ -> Adding neighbor (10, 9) to queue
+ -> Adding neighbor (11, 8) to queue
+
+==================================================
+Current node: (9, 7) at depth 16
+Queue size: 30
+Visited nodes: 117
+ -> Adding neighbor (8, 7) to queue
+
+==================================================
+Current node: (11, 7) at depth 16
+Queue size: 30
+Visited nodes: 118
+ -> Adding neighbor (11, 8) to queue
+ -> Adding neighbor (12, 7) to queue
+
+==================================================
+Current node: (12, 6) at depth 16
+Queue size: 30
+Visited nodes: 119
+ -> Adding neighbor (13, 6) to queue
+ -> Adding neighbor (12, 7) to queue
+
+==================================================
+Current node: (8, 6) at depth 16
+Queue size: 31
+Visited nodes: 120
+ -> Adding neighbor (8, 7) to queue
+ -> Adding neighbor (7, 6) to queue
+
+==================================================
+Current node: (14, 4) at depth 16
+Queue size: 31
+Visited nodes: 121
+ -> Adding neighbor (15, 4) to queue
+
+==================================================
+Current node: (15, 3) at depth 16
+Queue size: 30
+Visited nodes: 122
+ -> Adding neighbor (16, 3) to queue
+ -> Adding neighbor (15, 4) to queue
+
+==================================================
+Current node: (16, 2) at depth 16
+Queue size: 31
+Visited nodes: 123
+ -> Adding neighbor (16, 3) to queue
+ -> Adding neighbor (17, 2) to queue
+
+==================================================
+Current node: (17, 1) at depth 16
+Queue size: 30
+Visited nodes: 124
+ -> Adding neighbor (18, 1) to queue
+ -> Adding neighbor (17, 2) to queue
+
+==================================================
+Current node: (1, 17) at depth 16
+Queue size: 31
+Visited nodes: 125
+ -> Adding neighbor (1, 18) to queue
+ -> Adding neighbor (2, 17) to queue
+
+==================================================
+Current node: (9, 10) at depth 17
+Queue size: 31
+Visited nodes: 126
+ -> Adding neighbor (9, 11) to queue
+ -> Adding neighbor (10, 10) to queue
+
+==================================================
+Current node: (8, 11) at depth 17
+Queue size: 32
+Visited nodes: 127
+ -> Adding neighbor (8, 12) to queue
+ -> Adding neighbor (9, 11) to queue
+
+==================================================
+Current node: (7, 8) at depth 17
+Queue size: 33
+Visited nodes: 128
+ -> Adding neighbor (7, 7) to queue
+
+==================================================
+Current node: (7, 12) at depth 17
+Queue size: 33
+Visited nodes: 129
+ -> Adding neighbor (7, 13) to queue
+ -> Adding neighbor (8, 12) to queue
+
+==================================================
+Current node: (6, 7) at depth 17
+Queue size: 33
+Visited nodes: 130
+ -> Adding neighbor (6, 6) to queue
+ -> Adding neighbor (7, 7) to queue
+
+==================================================
+Current node: (6, 13) at depth 17
+Queue size: 33
+Visited nodes: 131
+ -> Adding neighbor (6, 14) to queue
+ -> Adding neighbor (7, 13) to queue
+
+==================================================
+Current node: (4, 15) at depth 17
+Queue size: 33
+Visited nodes: 132
+ -> Adding neighbor (4, 16) to queue
+
+==================================================
+Current node: (3, 16) at depth 17
+Queue size: 32
+Visited nodes: 133
+ -> Adding neighbor (4, 16) to queue
+ -> Adding neighbor (3, 17) to queue
+
+==================================================
+Current node: (2, 17) at depth 17
+Queue size: 33
+Visited nodes: 134
+ -> Adding neighbor (2, 18) to queue
+ -> Adding neighbor (3, 17) to queue
+
+==================================================
+Current node: (10, 9) at depth 17
+Queue size: 33
+Visited nodes: 135
+ -> Adding neighbor (11, 9) to queue
+ -> Adding neighbor (10, 10) to queue
+
+==================================================
+Current node: (11, 8) at depth 17
+Queue size: 34
+Visited nodes: 136
+ -> Adding neighbor (11, 9) to queue
+ -> Adding neighbor (12, 8) to queue
+
+==================================================
+Current node: (8, 7) at depth 17
+Queue size: 35
+Visited nodes: 137
+ -> Adding neighbor (7, 7) to queue
+
+==================================================
+Current node: (12, 7) at depth 17
+Queue size: 34
+Visited nodes: 138
+ -> Adding neighbor (12, 8) to queue
+ -> Adding neighbor (13, 7) to queue
+
+==================================================
+Current node: (13, 6) at depth 17
+Queue size: 35
+Visited nodes: 139
+ -> Adding neighbor (13, 7) to queue
+ -> Adding neighbor (14, 6) to queue
+
+==================================================
+Current node: (7, 6) at depth 17
+Queue size: 34
+Visited nodes: 140
+ -> Adding neighbor (6, 6) to queue
+ -> Adding neighbor (7, 7) to queue
+
+==================================================
+Current node: (15, 4) at depth 17
+Queue size: 35
+Visited nodes: 141
+ -> Adding neighbor (16, 4) to queue
+
+==================================================
+Current node: (16, 3) at depth 17
+Queue size: 35
+Visited nodes: 142
+ -> Adding neighbor (17, 3) to queue
+ -> Adding neighbor (16, 4) to queue
+
+==================================================
+Current node: (17, 2) at depth 17
+Queue size: 34
+Visited nodes: 143
+ -> Adding neighbor (18, 2) to queue
+ -> Adding neighbor (17, 3) to queue
+
+==================================================
+Current node: (18, 1) at depth 17
+Queue size: 35
+Visited nodes: 144
+ -> Adding neighbor (18, 2) to queue
+
+==================================================
+Current node: (1, 18) at depth 17
+Queue size: 34
+Visited nodes: 145
+ -> Adding neighbor (2, 18) to queue
+
+==================================================
+Current node: (9, 11) at depth 18
+Queue size: 33
+Visited nodes: 146
+ -> Adding neighbor (10, 11) to queue
+ -> Adding neighbor (9, 12) to queue
+
+==================================================
+Current node: (10, 10) at depth 18
+Queue size: 34
+Visited nodes: 147
+ -> Adding neighbor (10, 11) to queue
+ -> Adding neighbor (11, 10) to queue
+
+==================================================
+Current node: (8, 12) at depth 18
+Queue size: 35
+Visited nodes: 148
+ -> Adding neighbor (8, 13) to queue
+ -> Adding neighbor (9, 12) to queue
+
+==================================================
+Current node: (7, 7) at depth 18
+Queue size: 35
+Visited nodes: 149
+
+==================================================
+Current node: (7, 13) at depth 18
+Queue size: 34
+Visited nodes: 150
+ -> Adding neighbor (8, 13) to queue
+ -> Adding neighbor (7, 14) to queue
+
+==================================================
+Current node: (6, 6) at depth 18
+Queue size: 34
+Visited nodes: 151
+
+==================================================
+Current node: (6, 14) at depth 18
+Queue size: 32
+Visited nodes: 152
+ -> Adding neighbor (7, 14) to queue
+
+==================================================
+Current node: (4, 16) at depth 18
+Queue size: 31
+Visited nodes: 153
+ -> Adding neighbor (5, 16) to queue
+ -> Adding neighbor (4, 17) to queue
+
+==================================================
+Current node: (3, 17) at depth 18
+Queue size: 31
+Visited nodes: 154
+ -> Adding neighbor (4, 17) to queue
+ -> Adding neighbor (3, 18) to queue
+
+==================================================
+Current node: (2, 18) at depth 18
+Queue size: 32
+Visited nodes: 155
+ -> Adding neighbor (3, 18) to queue
+
+==================================================
+Current node: (11, 9) at depth 18
+Queue size: 31
+Visited nodes: 156
+ -> Adding neighbor (12, 9) to queue
+ -> Adding neighbor (11, 10) to queue
+
+==================================================
+Current node: (12, 8) at depth 18
+Queue size: 30
+Visited nodes: 157
+ -> Adding neighbor (13, 8) to queue
+ -> Adding neighbor (12, 9) to queue
+
+==================================================
+Current node: (13, 7) at depth 18
+Queue size: 29
+Visited nodes: 158
+ -> Adding neighbor (13, 8) to queue
+ -> Adding neighbor (14, 7) to queue
+
+==================================================
+Current node: (14, 6) at depth 18
+Queue size: 29
+Visited nodes: 159
+ -> Adding neighbor (14, 7) to queue
+
+==================================================
+Current node: (16, 4) at depth 18
+Queue size: 27
+Visited nodes: 160
+ -> Adding neighbor (17, 4) to queue
+ -> Adding neighbor (16, 5) to queue
+
+==================================================
+Current node: (17, 3) at depth 18
+Queue size: 28
+Visited nodes: 161
+ -> Adding neighbor (18, 3) to queue
+ -> Adding neighbor (17, 4) to queue
+
+==================================================
+Current node: (18, 2) at depth 18
+Queue size: 28
+Visited nodes: 162
+ -> Adding neighbor (18, 3) to queue
+
+==================================================
+Current node: (10, 11) at depth 19
+Queue size: 25
+Visited nodes: 163
+ -> Adding neighbor (11, 11) to queue
+ -> Adding neighbor (10, 12) to queue
+
+==================================================
+Current node: (9, 12) at depth 19
+Queue size: 26
+Visited nodes: 164
+ -> Adding neighbor (9, 13) to queue
+ -> Adding neighbor (10, 12) to queue
+
+==================================================
+Current node: (11, 10) at depth 19
+Queue size: 26
+Visited nodes: 165
+ -> Adding neighbor (11, 11) to queue
+ -> Adding neighbor (12, 10) to queue
+
+==================================================
+Current node: (8, 13) at depth 19
+Queue size: 27
+Visited nodes: 166
+ -> Adding neighbor (8, 14) to queue
+ -> Adding neighbor (9, 13) to queue
+
+==================================================
+Current node: (7, 14) at depth 19
+Queue size: 26
+Visited nodes: 167
+ -> Adding neighbor (8, 14) to queue
+
+==================================================
+Current node: (5, 16) at depth 19
+Queue size: 25
+Visited nodes: 168
+ -> Adding neighbor (5, 17) to queue
+ -> Adding neighbor (6, 16) to queue
+
+==================================================
+Current node: (4, 17) at depth 19
+Queue size: 26
+Visited nodes: 169
+ -> Adding neighbor (5, 17) to queue
+ -> Adding neighbor (4, 18) to queue
+
+==================================================
+Current node: (3, 18) at depth 19
+Queue size: 26
+Visited nodes: 170
+ -> Adding neighbor (4, 18) to queue
+
+==================================================
+Current node: (12, 9) at depth 19
+Queue size: 25
+Visited nodes: 171
+ -> Adding neighbor (13, 9) to queue
+ -> Adding neighbor (12, 10) to queue
+
+==================================================
+Current node: (13, 8) at depth 19
+Queue size: 25
+Visited nodes: 172
+ -> Adding neighbor (14, 8) to queue
+ -> Adding neighbor (13, 9) to queue
+
+==================================================
+Current node: (14, 7) at depth 19
+Queue size: 24
+Visited nodes: 173
+ -> Adding neighbor (14, 8) to queue
+
+==================================================
+Current node: (17, 4) at depth 19
+Queue size: 23
+Visited nodes: 174
+ -> Adding neighbor (17, 5) to queue
+ -> Adding neighbor (18, 4) to queue
+
+==================================================
+Current node: (16, 5) at depth 19
+Queue size: 24
+Visited nodes: 175
+ -> Adding neighbor (16, 6) to queue
+ -> Adding neighbor (17, 5) to queue
+
+==================================================
+Current node: (18, 3) at depth 19
+Queue size: 25
+Visited nodes: 176
+ -> Adding neighbor (18, 4) to queue
+
+==================================================
+Current node: (11, 11) at depth 20
+Queue size: 23
+Visited nodes: 177
+ -> Adding neighbor (11, 12) to queue
+ -> Adding neighbor (12, 11) to queue
+
+==================================================
+Current node: (10, 12) at depth 20
+Queue size: 24
+Visited nodes: 178
+ -> Adding neighbor (11, 12) to queue
+ -> Adding neighbor (10, 13) to queue
+
+==================================================
+Current node: (9, 13) at depth 20
+Queue size: 25
+Visited nodes: 179
+ -> Adding neighbor (9, 14) to queue
+ -> Adding neighbor (10, 13) to queue
+
+==================================================
+Current node: (12, 10) at depth 20
+Queue size: 24
+Visited nodes: 180
+ -> Adding neighbor (13, 10) to queue
+ -> Adding neighbor (12, 11) to queue
+
+==================================================
+Current node: (8, 14) at depth 20
+Queue size: 25
+Visited nodes: 181
+ -> Adding neighbor (9, 14) to queue
+
+==================================================
+Current node: (5, 17) at depth 20
+Queue size: 23
+Visited nodes: 182
+ -> Adding neighbor (5, 18) to queue
+ -> Adding neighbor (6, 17) to queue
+
+==================================================
+Current node: (6, 16) at depth 20
+Queue size: 24
+Visited nodes: 183
+ -> Adding neighbor (7, 16) to queue
+ -> Adding neighbor (6, 17) to queue
+
+==================================================
+Current node: (4, 18) at depth 20
+Queue size: 24
+Visited nodes: 184
+ -> Adding neighbor (5, 18) to queue
+
+==================================================
+Current node: (13, 9) at depth 20
+Queue size: 23
+Visited nodes: 185
+ -> Adding neighbor (13, 10) to queue
+ -> Adding neighbor (14, 9) to queue
+
+==================================================
+Current node: (14, 8) at depth 20
+Queue size: 23
+Visited nodes: 186
+ -> Adding neighbor (14, 9) to queue
+
+==================================================
+Current node: (17, 5) at depth 20
+Queue size: 21
+Visited nodes: 187
+ -> Adding neighbor (18, 5) to queue
+ -> Adding neighbor (17, 6) to queue
+
+==================================================
+Current node: (18, 4) at depth 20
+Queue size: 22
+Visited nodes: 188
+ -> Adding neighbor (18, 5) to queue
+
+==================================================
+Current node: (16, 6) at depth 20
+Queue size: 22
+Visited nodes: 189
+ -> Adding neighbor (17, 6) to queue
+ -> Adding neighbor (16, 7) to queue
+
+==================================================
+Current node: (11, 12) at depth 21
+Queue size: 21
+Visited nodes: 190
+ -> Adding neighbor (11, 13) to queue
+
+==================================================
+Current node: (12, 11) at depth 21
+Queue size: 21
+Visited nodes: 191
+ -> Adding neighbor (13, 11) to queue
+
+==================================================
+Current node: (10, 13) at depth 21
+Queue size: 20
+Visited nodes: 192
+ -> Adding neighbor (10, 14) to queue
+ -> Adding neighbor (11, 13) to queue
+
+==================================================
+Current node: (9, 14) at depth 21
+Queue size: 21
+Visited nodes: 193
+ -> Adding neighbor (10, 14) to queue
+
+==================================================
+Current node: (13, 10) at depth 21
+Queue size: 20
+Visited nodes: 194
+ -> Adding neighbor (13, 11) to queue
+ -> Adding neighbor (14, 10) to queue
+
+==================================================
+Current node: (5, 18) at depth 21
+Queue size: 19
+Visited nodes: 195
+ -> Adding neighbor (6, 18) to queue
+
+==================================================
+Current node: (6, 17) at depth 21
+Queue size: 19
+Visited nodes: 196
+ -> Adding neighbor (6, 18) to queue
+ -> Adding neighbor (7, 17) to queue
+
+==================================================
+Current node: (7, 16) at depth 21
+Queue size: 20
+Visited nodes: 197
+ -> Adding neighbor (7, 17) to queue
+ -> Adding neighbor (8, 16) to queue
+
+==================================================
+Current node: (14, 9) at depth 21
+Queue size: 18
+Visited nodes: 198
+ -> Adding neighbor (14, 10) to queue
+
+==================================================
+Current node: (18, 5) at depth 21
+Queue size: 17
+Visited nodes: 199
+ -> Adding neighbor (18, 6) to queue
+
+==================================================
+Current node: (17, 6) at depth 21
+Queue size: 17
+Visited nodes: 200
+ -> Adding neighbor (18, 6) to queue
+ -> Adding neighbor (17, 7) to queue
+
+==================================================
+Current node: (16, 7) at depth 21
+Queue size: 16
+Visited nodes: 201
+ -> Adding neighbor (16, 8) to queue
+ -> Adding neighbor (17, 7) to queue
+
+==================================================
+Current node: (11, 13) at depth 22
+Queue size: 17
+Visited nodes: 202
+ -> Adding neighbor (11, 14) to queue
+
+==================================================
+Current node: (13, 11) at depth 22
+Queue size: 17
+Visited nodes: 203
+ -> Adding neighbor (14, 11) to queue
+
+==================================================
+Current node: (10, 14) at depth 22
+Queue size: 17
+Visited nodes: 204
+ -> Adding neighbor (10, 15) to queue
+ -> Adding neighbor (11, 14) to queue
+
+==================================================
+Current node: (14, 10) at depth 22
+Queue size: 15
+Visited nodes: 205
+ -> Adding neighbor (15, 10) to queue
+ -> Adding neighbor (14, 11) to queue
+
+==================================================
+Current node: (6, 18) at depth 22
+Queue size: 16
+Visited nodes: 206
+ -> Adding neighbor (7, 18) to queue
+
+==================================================
+Current node: (7, 17) at depth 22
+Queue size: 15
+Visited nodes: 207
+ -> Adding neighbor (8, 17) to queue
+ -> Adding neighbor (7, 18) to queue
+
+==================================================
+Current node: (8, 16) at depth 22
+Queue size: 15
+Visited nodes: 208
+ -> Adding neighbor (8, 17) to queue
+ -> Adding neighbor (9, 16) to queue
+
+==================================================
+Current node: (18, 6) at depth 22
+Queue size: 15
+Visited nodes: 209
+ -> Adding neighbor (18, 7) to queue
+
+==================================================
+Current node: (17, 7) at depth 22
+Queue size: 14
+Visited nodes: 210
+ -> Adding neighbor (18, 7) to queue
+ -> Adding neighbor (17, 8) to queue
+
+==================================================
+Current node: (16, 8) at depth 22
+Queue size: 15
+Visited nodes: 211
+ -> Adding neighbor (16, 9) to queue
+ -> Adding neighbor (17, 8) to queue
+
+==================================================
+Current node: (11, 14) at depth 23
+Queue size: 15
+Visited nodes: 212
+ -> Adding neighbor (12, 14) to queue
+
+==================================================
+Current node: (14, 11) at depth 23
+Queue size: 15
+Visited nodes: 213
+ -> Adding neighbor (14, 12) to queue
+
+==================================================
+Current node: (10, 15) at depth 23
+Queue size: 15
+Visited nodes: 214
+ -> Adding neighbor (10, 16) to queue
+
+==================================================
+Current node: (15, 10) at depth 23
+Queue size: 14
+Visited nodes: 215
+ -> Adding neighbor (16, 10) to queue
+
+==================================================
+Current node: (7, 18) at depth 23
+Queue size: 13
+Visited nodes: 216
+ -> Adding neighbor (8, 18) to queue
+
+==================================================
+Current node: (8, 17) at depth 23
+Queue size: 13
+Visited nodes: 217
+ -> Adding neighbor (8, 18) to queue
+ -> Adding neighbor (9, 17) to queue
+
+==================================================
+Current node: (9, 16) at depth 23
+Queue size: 12
+Visited nodes: 218
+ -> Adding neighbor (9, 17) to queue
+ -> Adding neighbor (10, 16) to queue
+
+==================================================
+Current node: (18, 7) at depth 23
+Queue size: 13
+Visited nodes: 219
+ -> Adding neighbor (18, 8) to queue
+
+==================================================
+Current node: (17, 8) at depth 23
+Queue size: 12
+Visited nodes: 220
+ -> Adding neighbor (17, 9) to queue
+ -> Adding neighbor (18, 8) to queue
+
+==================================================
+Current node: (16, 9) at depth 23
+Queue size: 13
+Visited nodes: 221
+ -> Adding neighbor (17, 9) to queue
+ -> Adding neighbor (16, 10) to queue
+
+==================================================
+Current node: (12, 14) at depth 24
+Queue size: 13
+Visited nodes: 222
+ -> Adding neighbor (13, 14) to queue
+
+==================================================
+Current node: (14, 12) at depth 24
+Queue size: 13
+Visited nodes: 223
+ -> Adding neighbor (14, 13) to queue
+
+==================================================
+Current node: (10, 16) at depth 24
+Queue size: 13
+Visited nodes: 224
+ -> Adding neighbor (10, 17) to queue
+ -> Adding neighbor (11, 16) to queue
+
+==================================================
+Current node: (16, 10) at depth 24
+Queue size: 14
+Visited nodes: 225
+ -> Adding neighbor (17, 10) to queue
+ -> Adding neighbor (16, 11) to queue
+
+==================================================
+Current node: (8, 18) at depth 24
+Queue size: 15
+Visited nodes: 226
+ -> Adding neighbor (9, 18) to queue
+
+==================================================
+Current node: (9, 17) at depth 24
+Queue size: 14
+Visited nodes: 227
+ -> Adding neighbor (9, 18) to queue
+ -> Adding neighbor (10, 17) to queue
+
+==================================================
+Current node: (18, 8) at depth 24
+Queue size: 13
+Visited nodes: 228
+ -> Adding neighbor (18, 9) to queue
+
+==================================================
+Current node: (17, 9) at depth 24
+Queue size: 13
+Visited nodes: 229
+ -> Adding neighbor (18, 9) to queue
+ -> Adding neighbor (17, 10) to queue
+
+==================================================
+Current node: (13, 14) at depth 25
+Queue size: 11
+Visited nodes: 230
+ -> Adding neighbor (14, 14) to queue
+
+==================================================
+Current node: (14, 13) at depth 25
+Queue size: 11
+Visited nodes: 231
+ -> Adding neighbor (14, 14) to queue
+
+==================================================
+Current node: (10, 17) at depth 25
+Queue size: 11
+Visited nodes: 232
+ -> Adding neighbor (11, 17) to queue
+ -> Adding neighbor (10, 18) to queue
+
+==================================================
+Current node: (11, 16) at depth 25
+Queue size: 12
+Visited nodes: 233
+ -> Adding neighbor (11, 17) to queue
+ -> Adding neighbor (12, 16) to queue
+
+==================================================
+Current node: (17, 10) at depth 25
+Queue size: 13
+Visited nodes: 234
+ -> Adding neighbor (17, 11) to queue
+ -> Adding neighbor (18, 10) to queue
+
+==================================================
+Current node: (16, 11) at depth 25
+Queue size: 14
+Visited nodes: 235
+ -> Adding neighbor (16, 12) to queue
+ -> Adding neighbor (17, 11) to queue
+
+==================================================
+Current node: (9, 18) at depth 25
+Queue size: 15
+Visited nodes: 236
+ -> Adding neighbor (10, 18) to queue
+
+==================================================
+Current node: (18, 9) at depth 25
+Queue size: 13
+Visited nodes: 237
+ -> Adding neighbor (18, 10) to queue
+
+==================================================
+Current node: (14, 14) at depth 26
+Queue size: 11
+Visited nodes: 238
+
+==================================================
+Current node: (11, 17) at depth 26
+Queue size: 9
+Visited nodes: 239
+ -> Adding neighbor (12, 17) to queue
+ -> Adding neighbor (11, 18) to queue
+
+==================================================
+Current node: (10, 18) at depth 26
+Queue size: 10
+Visited nodes: 240
+ -> Adding neighbor (11, 18) to queue
+
+==================================================
+Current node: (12, 16) at depth 26
+Queue size: 9
+Visited nodes: 241
+ -> Adding neighbor (12, 17) to queue
+ -> Adding neighbor (13, 16) to queue
+
+==================================================
+Current node: (17, 11) at depth 26
+Queue size: 10
+Visited nodes: 242
+ -> Adding neighbor (18, 11) to queue
+ -> Adding neighbor (17, 12) to queue
+
+==================================================
+Current node: (18, 10) at depth 26
+Queue size: 11
+Visited nodes: 243
+ -> Adding neighbor (18, 11) to queue
+
+==================================================
+Current node: (16, 12) at depth 26
+Queue size: 11
+Visited nodes: 244
+ -> Adding neighbor (16, 13) to queue
+ -> Adding neighbor (17, 12) to queue
+
+==================================================
+Current node: (12, 17) at depth 27
+Queue size: 9
+Visited nodes: 245
+ -> Adding neighbor (12, 18) to queue
+ -> Adding neighbor (13, 17) to queue
+
+==================================================
+Current node: (11, 18) at depth 27
+Queue size: 10
+Visited nodes: 246
+ -> Adding neighbor (12, 18) to queue
+
+==================================================
+Current node: (13, 16) at depth 27
+Queue size: 8
+Visited nodes: 247
+ -> Adding neighbor (13, 17) to queue
+ -> Adding neighbor (14, 16) to queue
+
+==================================================
+Current node: (18, 11) at depth 27
+Queue size: 9
+Visited nodes: 248
+ -> Adding neighbor (18, 12) to queue
+
+==================================================
+Current node: (17, 12) at depth 27
+Queue size: 9
+Visited nodes: 249
+ -> Adding neighbor (17, 13) to queue
+ -> Adding neighbor (18, 12) to queue
+
+==================================================
+Current node: (16, 13) at depth 27
+Queue size: 9
+Visited nodes: 250
+ -> Adding neighbor (17, 13) to queue
+ -> Adding neighbor (16, 14) to queue
+
+==================================================
+Current node: (12, 18) at depth 28
+Queue size: 9
+Visited nodes: 251
+ -> Adding neighbor (13, 18) to queue
+
+==================================================
+Current node: (13, 17) at depth 28
+Queue size: 9
+Visited nodes: 252
+ -> Adding neighbor (13, 18) to queue
+ -> Adding neighbor (14, 17) to queue
+
+==================================================
+Current node: (14, 16) at depth 28
+Queue size: 8
+Visited nodes: 253
+ -> Adding neighbor (15, 16) to queue
+ -> Adding neighbor (14, 17) to queue
+
+==================================================
+Current node: (18, 12) at depth 28
+Queue size: 9
+Visited nodes: 254
+ -> Adding neighbor (18, 13) to queue
+
+==================================================
+Current node: (17, 13) at depth 28
+Queue size: 9
+Visited nodes: 255
+ -> Adding neighbor (18, 13) to queue
+ -> Adding neighbor (17, 14) to queue
+
+==================================================
+Current node: (16, 14) at depth 28
+Queue size: 8
+Visited nodes: 256
+ -> Adding neighbor (16, 15) to queue
+ -> Adding neighbor (17, 14) to queue
+
+==================================================
+Current node: (13, 18) at depth 29
+Queue size: 9
+Visited nodes: 257
+ -> Adding neighbor (14, 18) to queue
+
+==================================================
+Current node: (14, 17) at depth 29
+Queue size: 8
+Visited nodes: 258
+ -> Adding neighbor (14, 18) to queue
+ -> Adding neighbor (15, 17) to queue
+
+==================================================
+Current node: (15, 16) at depth 29
+Queue size: 9
+Visited nodes: 259
+ -> Adding neighbor (15, 15) to queue
+ -> Adding neighbor (15, 17) to queue
+
+==================================================
+Current node: (18, 13) at depth 29
+Queue size: 9
+Visited nodes: 260
+ -> Adding neighbor (18, 14) to queue
+
+==================================================
+Current node: (17, 14) at depth 29
+Queue size: 8
+Visited nodes: 261
+ -> Adding neighbor (18, 14) to queue
+ -> Adding neighbor (17, 15) to queue
+
+==================================================
+Current node: (16, 15) at depth 29
+Queue size: 9
+Visited nodes: 262
+ -> Adding neighbor (17, 15) to queue
+ -> Adding neighbor (15, 15) to queue
+
+==================================================
+Current node: (14, 18) at depth 30
+Queue size: 9
+Visited nodes: 263
+ -> Adding neighbor (15, 18) to queue
+
+==================================================
+Current node: (15, 17) at depth 30
+Queue size: 8
+Visited nodes: 264
+ -> Adding neighbor (15, 18) to queue
+
+==================================================
+Current node: (15, 15) at depth 30
+Queue size: 8
+Visited nodes: 265
+
+==================================================
+Current node: (18, 14) at depth 30
+Queue size: 6
+Visited nodes: 266
+ -> Adding neighbor (18, 15) to queue
+
+==================================================
+Current node: (17, 15) at depth 30
+Queue size: 5
+Visited nodes: 267
+ -> Adding neighbor (18, 15) to queue
+
+==================================================
+Current node: (15, 18) at depth 31
+Queue size: 3
+Visited nodes: 268
+ -> Adding neighbor (16, 18) to queue
+
+==================================================
+Current node: (18, 15) at depth 31
+Queue size: 2
+Visited nodes: 269
+ -> Adding neighbor (18, 16) to queue
+
+==================================================
+Current node: (16, 18) at depth 32
+Queue size: 1
+Visited nodes: 270
+ -> Adding neighbor (17, 18) to queue
+
+==================================================
+Current node: (18, 16) at depth 32
+Queue size: 1
+Visited nodes: 271
+ -> Adding neighbor (18, 17) to queue
+
+==================================================
+Current node: (17, 18) at depth 33
+Queue size: 1
+Visited nodes: 272
+ -> Adding neighbor (18, 18) to queue
+ -> Adding neighbor (17, 17) to queue
+
+==================================================
+Current node: (18, 17) at depth 33
+Queue size: 2
+Visited nodes: 273
+ -> Adding neighbor (17, 17) to queue
+ -> Adding neighbor (18, 18) to queue
+
+==================================================
+Current node: (18, 18) at depth 34
+Queue size: 3
+Visited nodes: 274
+✅ Path found: [(1, 1), (2, 1), (2, 2), (2, 3), (2, 4), (2, 5), (2, 6), (2, 7), (3, 7), (4, 7), (4, 8), (4, 9), (4, 10), (5, 10), (6, 10), (7, 10), (8, 10), (9, 10), (9, 11), (10, 11), (10, 12), (10, 13), (10, 14), (10, 15), (10, 16), (10, 17), (11, 17), (12, 17), (12, 18), (13, 18), (14, 18), (15, 18), (16, 18), (17, 18), (18, 18)]
+Recording saved as recordings/bfs_random_demo_20250911_152143.mp4
+==================================================
+End time: 2025-09-11 15:21:47
