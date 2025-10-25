@@ -1,0 +1,15 @@
+Experiment on Programming Security – Web Mobile Application
+https://owasp.org/www-community/attacks/Brute_force_attack
+https://owasp.org/www-community/attacks/Command_Injection
+https://www.scribd.com/document/2530476/Php-Endangers-Remote-Code-Execution
+https://en.wikipedia.org/wiki/Cross-site_request_forgery
+https://owasp.org/www-community/attacks/csrf
+https://en.wikipedia.org/wiki/File_inclusion_vulnerability
+https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload
+https://en.wikipedia.org/wiki/SQL_injection
+https://owasp.org/www-community/attacks/SQL_Injection
+https://www.invicti.com/blog/web-security/sql-injection-cheat-sheet/
+https://www.cgisecurity.com/xss-faq.html
+https://en.wikipedia.org/wiki/Cross-site_scripting
+https://owasp.org/www-community/attacks/xss/
+https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html
